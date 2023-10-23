@@ -14,7 +14,7 @@ def supported_languages():
     return lines
 
 def lproj_directory(lang):
-    path = "work/Processing.app/Contents/Resources/{}.lproj".format(lang)
+    path = f"work/Processing.app/Contents/Resources/{lang}.lproj"
     return os.path.join(BASEDIR, path)
 
 
